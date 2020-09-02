@@ -215,10 +215,10 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["rubberDuck"];
+let bathroomScope = ["rubberDuck", "sailorDuck","duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["sailorDuck"];
+let bathtubScope = ["sailorDuck", "rubberduck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["realDuck"];
@@ -236,10 +236,10 @@ let age = 30;
 
 // Code Here
 
-age = 31;
+age ++;
 
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
 
-let newAge = age + 968;
+age + 968;
