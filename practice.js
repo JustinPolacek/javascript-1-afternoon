@@ -2,11 +2,11 @@
 
 //Create a variable called myName that is a string data type
 
-let myName = "justin";
+
 
 //Code here
 
-
+var myName = "hello";
 
 //////////////////PROBLEM 2////////////////////
 
@@ -14,7 +14,8 @@ let myName = "justin";
 
 //Code here
 
-let myAge = 30;
+var myAge = 30;
+
 
 //////////////////PROBLEM 3////////////////////
 
@@ -22,7 +23,8 @@ let myAge = 30;
 
 //Code here
 
-const lovesCode = true;
+var lovesCode = true;
+
 
 //////////////////PROBLEM 4////////////////////
 
@@ -30,7 +32,8 @@ const lovesCode = true;
 
 //Code here
 
-const greatestFear = 
+var greatestFear =  
+
 
 //////////////////PROBLEM 5////////////////////
 
@@ -38,7 +41,8 @@ const greatestFear =
 
 //Code here
 
- let devMountainGoal = null;
+let devMountainGoal = null
+
 
 //////////////////PROBLEM 6////////////////////
 
@@ -49,9 +53,11 @@ const greatestFear =
 
 //Code here
 function greeting(name){
-  return `hello, ${name}`;
+  return "hello, " + " " +name
+}
 
-};
+
+
 
 //////////////////PROBLEM 7////////////////////
 
@@ -59,12 +65,10 @@ function greeting(name){
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here 
-
- let newGreeting = function(name){
-   return `hello, ${name}`;
-
- };
-
+let newGreeting = function(name){
+return "hello, " + " " + name
+}
+ 
 
 //////////////////PROBLEM 8////////////////////
 
@@ -73,7 +77,9 @@ function greeting(name){
 
 //Code Here
 
-let groceries = ['apples', 'milk', 'eggs', 'bread']
+let groceries = ["apples", "milk", "eggs", "bread"]
+
+
 
 
 
@@ -88,11 +94,9 @@ let groceries = ['apples', 'milk', 'eggs', 'bread']
 
 let dog = {
   name: "kona",
-  color: "brown",
-  age: 2,
+  age: 5,
   goodBoy: true,
-};
- 
+}
 
 
 
@@ -102,7 +106,8 @@ let dog = {
 
 //Code Here
 
-let devMountainClassPet = dog[name]
+dog.name = "devMountainClassPet"
+
 
 //////////////////PROBLEM 10////////////////////
 
@@ -114,20 +119,18 @@ let devMountainClassPet = dog[name]
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
-
 function nameCheck(name){
   if(name === 'Steven'){
-    return 'What is up Steve'
+    return 'What is up steven?'
   }
-  else if(name === 'Bryan'){
+  if(name === 'Bryan'){
     return 'Hey Bryan!'
   }
-  else{
-    return 'cool name, ${name}'
+  else{return 'cool name ' + name}
   }
+  
+  
 
-
-}
 
 
 //////////////////PROBLEM 11////////////////////
@@ -140,13 +143,9 @@ function nameCheck(name){
 
 //Code Here
 
-let add = function(num1, num2){
-  return num1 + num2
-
-};
-
-
-
+function add(num1, num2){
+return num1 + num2;
+}
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
@@ -155,7 +154,6 @@ let add = function(num1, num2){
 
 add(3, 4)
 
-let mathSum = add
 
 //////////////////PROBLEM 12////////////////////
 
@@ -172,20 +170,17 @@ function faveColorFinder(color){
   if(color === 'red'){
     return 'red is a great color'
   }
-  else if(color === 'green'){
+  if( color === 'green'){
     return 'green is a solid favorite color'
   }
-  else if(color === 'black'){
+  if(color === 'black'){
     return 'so trendy'
   }
   else{
     return 'you need to evaluate your favorite color choice'
   }
-
-
-
-
 }
+
 
 
 
@@ -212,16 +207,16 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck"];
+let globalScope = ["duck"]
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["rubberDuck","duck"];
+let bathroomScope = ["rubberDuck", "duck"]
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["sailorDuck", "rubberDuck","duck"];
+let bathTubScope = ["sailorduck", "rubberduck", "duck"]
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck","duck"];
+let pondScope = ["realduck", "duck"]
 
 //////////////////PROBLEM 14////////////////////
 
@@ -236,10 +231,12 @@ let age = 30;
 
 // Code Here
 
-age ++;
+age + 1
+
 
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
 
-age + 968;
+age + 968
+
