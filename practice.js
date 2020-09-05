@@ -32,7 +32,7 @@ var lovesCode = true;
 
 //Code here
 
-var greatestFear =  
+var greatestFear =  undefined;
 
 
 //////////////////PROBLEM 5////////////////////
@@ -41,7 +41,7 @@ var greatestFear =
 
 //Code here
 
-let devMountainGoal = null
+var devMountainGoal = null;
 
 
 //////////////////PROBLEM 6////////////////////
