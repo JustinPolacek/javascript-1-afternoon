@@ -247,7 +247,7 @@ let globalScope = ["duck"]
 let bathroomScope = ["duck", "rubberDuck"]
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathTubScope = ["duck", "rubberDuck", "sailorDuck"]
+let bathTubScope = ["rubberDuck", "sailorDuck", "duck"]
 
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["realDuck", "duck"]
@@ -264,13 +264,14 @@ var age = 30;
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-age = 31;
 
+age++;
 
 
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
-
+ 
 
 age += 968;
+
